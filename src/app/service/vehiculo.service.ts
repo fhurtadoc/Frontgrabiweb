@@ -22,7 +22,7 @@ export interface vehiculos_list {
   providedIn: 'root'
 })
 export class VehiculoService {
-  private URL = 'http://127.0.0.1:8080';
+  private URL = 'http://64.227.97.74:80';
   constructor(private http: HttpClient) { }
 
   list(){
